@@ -61,7 +61,7 @@ def grid(scale):
         t.goto(x,-300)
         x+=k
         t.penup()
-    x=k
+    x=-k
     for i in range(k):
         t.goto(x,300)
         t.pendown()
@@ -76,7 +76,7 @@ def grid(scale):
         t.goto(-350,x)
         x+=k
         t.penup()
-    x=k
+    x=-k
     for i in range(k):
         t.goto(350,x)
         t.pendown()
@@ -92,7 +92,7 @@ def grid(scale):
 
 init_drawman()
 if __name__=='__main__':
-    import time
+    #import time
     test_drawman()
     #time.sleep(10)
 
