@@ -92,7 +92,7 @@ def grid(scale):
 
 init_drawman()
 if __name__=='__main__':
-    #import time
+    import time
     test_drawman()
     #time.sleep(10)
 
